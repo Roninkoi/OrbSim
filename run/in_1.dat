@@ -1,0 +1,7 @@
+2 0 0 (number of objects, simulation mode, time parameters 0(step + len) 1(step + num) 2(len + num))
+1000.0 11.2e8 (parameter1, parameter2)
+100000 1000 (print m, write k)
+
+1.989e30 1000.0 0.0 0.0 0.0 0.0 0.0 0.0 sun
+1.898e27 1000.0 778.0e9 0.0 0.0 0.0 13070.0 0.0 jupiter
+

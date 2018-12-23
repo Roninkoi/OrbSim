@@ -1,0 +1,47 @@
+SIMULATOR RUN
+=============
+
+USAGE:
+------
+
+./sim in.dat out.dat
+
+./render < out.dat
+
+./sim in.dat | ./render (requires simulation mode 1)
+
+FILE FORMATS:
+-------------
+
+All data is in SI units. There is only numerical data.
+Examples are included.
+
+in.dat:
+
+Simulation mode key:
+0 = output to file out.dat (default mode)
+1 = only output to stdout (useful for piping)
+
+Time parameter key:
+0:
+tp 1 = time step (s)
+tp 2 = total simulated time (s)
+1:
+tp 1 = time step (s)
+tp 2 = number of steps
+2:
+tp 1 = total simulated time(s)
+tp 2 = number of steps
+
+<number of objects> <simulation mode 0-1> <time parameters 0-2>
+<time parameter 1> <time parameter 2>
+<print frequency in cycles> <write frequency in cycles>
+
+<mass> <radius> <x> <y> <z> <vx> <vy> <vz>
+...
+
+out.dat:
+
+<id> <radius> <x> <y> <z>
+...
+

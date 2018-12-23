@@ -1,0 +1,19 @@
+SIMULATOR + RENDERER COMPILATION
+================================
+
+Written in Fortran90, sim requires no libraries. The renderer 
+requires OpenGL, GLU and GLUT to compile (development libraries).
+
+COMPILATION:
+------------
+
+sim:
+./build.sh
+
+or
+
+gfortran util.f90 vec.f90 int.f90 body.f90 sys.f90 sim.f90 -o sim
+
+render:
+make
+
