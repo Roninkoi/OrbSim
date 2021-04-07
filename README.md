@@ -1,6 +1,6 @@
 # Orbital mechanics simulator
 
-![orb](https://user-images.githubusercontent.com/12766039/113861429-deebd300-97af-11eb-8487-c818ffeaf583.gif)
+![orb](https://user-images.githubusercontent.com/12766039/113861823-4efa5900-97b0-11eb-8e5c-fdbef1c805e0.gif)
 
 Simple orbital mechanics simulator using verlet integration.
 
