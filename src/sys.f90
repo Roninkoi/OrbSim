@@ -50,6 +50,8 @@ contains
 
     open(9, file = path, status = "old", action = "read", iostat = io)
 
+    if (io /= 0) return
+
     ! simulation parameters
     read(9, *) objnum, mode, tp
 
